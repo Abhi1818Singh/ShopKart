@@ -3127,21 +3127,26 @@ h1, h2, h3, h4,
   background: #d4ff00 !important;
 }
 
+#nav-register,
 .nav-register-btn,
 .nav-register-link,
 .nav-link.nav-register-link,
-.nav-link.nav-register-link.active {
+.nav-link.nav-register-link.active,
+#nav-register.active {
   background: #d4ff00 !important;
   color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
   border: 1px solid #d4ff00 !important;
   font-weight: 700 !important;
 }
 
+#nav-register:hover,
 .nav-register-btn:hover,
 .nav-register-link:hover,
 .nav-link.nav-register-link:hover {
   background: #ffffff !important;
   color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
   border-color: #ffffff !important;
 }
 

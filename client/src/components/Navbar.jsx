@@ -153,6 +153,7 @@ const Navbar = ({ user, setUser }) => {
                             to="/register"
                             id="nav-register"
                             className={`nav-link nav-register-link ${location.pathname === '/register' ? 'active' : ''}`}
+                            style={{ color: '#000000', fontWeight: 'bold' }}
                             onClick={closeMobile}
                         >
                             Register
