@@ -1,21 +1,21 @@
-# ShopKart 🛍️
+# ShopKart
 
 A modern, full-stack e-commerce web application featuring a brutalist high-contrast aesthetic, customizable background themes, customer authentication, product catalog, wishlist, shopping cart, and Razorpay checkout integration.
 
 ---
 
-## 🚀 Features
+## Features
 
-- **🔐 Customer Authentication & Authorization**: Secure signup, login, and profile management using JSON Web Tokens (JWT) stored in HTTP-only cookies.
-- **📦 Product Catalog & Collections**: Browse products with search, category filtering, price sorting, and detailed product specifications.
-- **❤️ Wishlist**: Save favorite items with persistent MongoDB synchronization.
-- **🛒 Shopping Cart**: State-managed cart with quantity controls, subtotal computation, and persistent synchronization via Redux Toolkit.
-- **💳 Payments & Orders**: Order creation, Razorpay payment processing, order history, and detailed status tracking.
-- **🎨 Modern Brutalist Design System**: Neon lime accents (`#d4ff00`), bold Anton typography, responsive layout, and real-time background theme switcher (Blue 🩵, Pink 🌸, Black 🖤).
+- **Customer Authentication & Authorization**: Secure signup, login, and profile management using JSON Web Tokens (JWT) stored in HTTP-only cookies.
+- **Product Catalog & Collections**: Browse products with search, category filtering, price sorting, and detailed product specifications.
+- **Wishlist**: Save favorite items with persistent MongoDB synchronization.
+- **Shopping Cart**: State-managed cart with quantity controls, subtotal computation, and persistent synchronization via Redux Toolkit.
+- **Payments & Orders**: Order creation, Razorpay payment processing, order history, and detailed status tracking.
+- **Modern Brutalist Design System**: Neon lime accents (`#d4ff00`), bold Anton typography, responsive layout, and real-time background theme switcher (Blue, Pink, Black).
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 19** + **Vite**
@@ -32,9 +32,9 @@ A modern, full-stack e-commerce web application featuring a brutalist high-contr
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
-```
+```text
 ShopKart/
 ├── client/                 # React frontend
 │   ├── public/             # Static assets (logos, hero graphics)
@@ -53,16 +53,19 @@ ShopKart/
 
 ---
 
-## ⚡ Getting Started
+## Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/Abhi1818Singh/ShopKart.git
 cd ShopKart
 ```
 
 ### 2. Configure Backend Environment
+
 Create a `.env` file in the `server/` directory (see `server/.env.example`):
+
 ```env
 PORT=8008
 dbURL=your_mongodb_connection_string
@@ -72,6 +75,7 @@ RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 ```
 
 ### 3. Install Dependencies
+
 ```bash
 # Install backend dependencies
 cd server
@@ -83,19 +87,26 @@ npm install
 ```
 
 ### 4. Seed Products (Optional)
+
 ```bash
 cd server
 node seed.js
 ```
 
 ### 5. Run the Application
-In separate terminal windows:
+
+Open separate terminal windows.
+
+**Terminal 1: Start Server**
+
 ```bash
-# Terminal 1: Start Server
 cd server
 npm run dev
+```
 
-# Terminal 2: Start Client
+**Terminal 2: Start Client**
+
+```bash
 cd client
 npm run dev
 ```
