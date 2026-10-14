@@ -3128,16 +3128,25 @@ h1, h2, h3, h4,
 }
 
 .nav-register-btn,
-.nav-register-link {
+.nav-register-link,
+.nav-link.nav-register-link,
+.nav-link.nav-register-link.active {
   background: #d4ff00 !important;
   color: #000000 !important;
   border: 1px solid #d4ff00 !important;
+  font-weight: 700 !important;
 }
 
 .nav-register-btn:hover,
-.nav-register-link:hover {
+.nav-register-link:hover,
+.nav-link.nav-register-link:hover {
   background: #ffffff !important;
   color: #000000 !important;
+  border-color: #ffffff !important;
+}
+
+.nav-register-link.active::after {
+  display: none !important;
 }
 
 .cart-count-badge {
