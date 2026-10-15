@@ -12,9 +12,6 @@ ShopKart is a full-stack e-commerce web application featuring user authenticatio
 ### Home Page - Hero Section
 ![ShopKart Home Hero](docs/images/home-hero.png)
 
-### Product Catalog
-![ShopKart Products Catalog](docs/images/products-catalog.png)
-
 ### Featured Products & Collections
 ![ShopKart Featured Products](docs/images/featured-products.png)
 
